@@ -10,10 +10,6 @@ alias l1='ls -1'
 
 alias _="sudo"
 
-if [ $(uname) = "Linux" ]
-then
-  alias ls="ls --color=always"
-fi
 which gshuf &> /dev/null
 if [ $? -eq 1 ]
 then
